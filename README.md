@@ -40,6 +40,15 @@ To build the application, run:
 npm test
 ```
 
+## Run code
+
+To build the application, run:
+
+```bash
+npm start
+```
+
+
 ## Contribute
 
 We welcome contributions! If you'd like to contribute to CORAG, please follow these steps:
