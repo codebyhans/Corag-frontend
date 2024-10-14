@@ -1,0 +1,48 @@
+{
+  "name": "vue",
+  "description": "Include Bootstrap's source Sass and individual JavaScript plugins with Vue and Vite.",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "twbs/examples",
+  "license": "MIT",
+  "stackblitz": {
+    "startCommand": "npm start"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --ignore-path .gitignore",
+    "fix": "npm run lint -- --fix",
+    "test": "npm run build && npm run lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.7.3",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "chart.js": "^4.4.3",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "date-fns": "^3.6.0",
+    "dompurify": "^3.1.6",
+    "font-awesome": "^4.7.0",
+    "highlightjs": "^9.16.2",
+    "jquery": "^3.7.1",
+    "marked": "^14.1.2",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.6.82",
+    "vue": "^3.4.21",
+    "vue-chartjs": "^5.3.1",
+    "vue-gtag": "^2.0.1",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "sass": "^1.77.6",
+    "sass-loader": "^14.2.1",
+    "vite": "^5.2.7",
+    "vue-loader": "^17.4.2"
+  }
+}
