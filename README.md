@@ -76,5 +76,3 @@ We welcome contributions! If you'd like to contribute to CORAG, please follow th
 - [Bootstrap](https://getbootstrap.com/)
 - [Axios](https://axios-http.com/)
 - [PDF-lib](https://pdf-lib.js.org/)
-
-If you want to learn more about creating good README files, refer to the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops).
