@@ -30,7 +30,9 @@ To get your copy of CORAG up and running, follow these steps:
 Check the [releases page](https://github.com/yourusername/corag/releases) for the latest updates.
 
 ### API References
-Refer to the API documentation for detailed information on the endpoints and their usage.
+Refer to the backend repo for details on endpoints 
+[Backend](https://github.com/codebyhans/Corag-backend)
+
 
 ## Build and Test
 
