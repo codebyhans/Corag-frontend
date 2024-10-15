@@ -118,7 +118,10 @@ const displayOverlayList = (files) => {
     }).on('click', async () => {
       $spinner.show(); // Show spinner
       try {
-        await axios.delete(`${backendUrl}/delete-document?passphrase=${eventBus.getPassphrase()}&filename=${file.document_name}`);
+        await axios.post(`${backendUrl}/delete-document`, {
+          passphrase: eventBus.getPassphrase(),
+          filename: file.document_name
+        });
         console.log(`File ${file.document_name} deleted successfully.`);
         $listItem.remove(); // Remove the item from the list after deletion
       } catch (error) {
